@@ -1,0 +1,38 @@
+# Ambiente virtuale
+venv/
+env/
+
+# File di configurazione sensibili
+*.env
+config.json
+
+# File compilati Python
+__pycache__/
+*.pyc
+*.pyo
+
+# File di dataset e modelli addestrati
+data/
+models/
+
+# File di log e cache temporanei
+*.log
+*.cache
+*.tmp
+
+# File generati da Jupyter Notebook
+.ipynb_checkpoints/
+
+# Profiling report
+*.html
+*.pdf
+
+# Docker e Virtual Machine
+Dockerfile
+*.docker
+*.vagrant
+
+# Escludi altre dipendenze specifiche del sistema operativo o dell'IDE
+.idea/
+.vscode/
+.DS_Store
